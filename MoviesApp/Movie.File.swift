@@ -7,3 +7,18 @@
 //
 
 import Foundation
+
+
+struct SearchResults: Codable{
+    
+    var Search: [Movie]?
+    var totalResults: String?
+    var Response: String?
+}
+
+struct Movie: Codable {
+    var Title: String?
+    var Year: String?
+    var imdbID: String?
+    var Poster: String?
+}
