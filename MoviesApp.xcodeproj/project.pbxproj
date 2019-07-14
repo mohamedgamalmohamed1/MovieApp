@@ -50,6 +50,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70053D2122DB3F7B00ED0E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				70650A9222A143C40076BA85 /* Movie.File.swift */,
+				70650A9022A13E810076BA85 /* MovieCell.swift */,
+				70650A9422A160E30076BA85 /* MovieDetailsCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70053D2222DB3F9F00ED0E2B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70650A7B22A13CCF0076BA85 /* AppDelegate.swift */,
+				70650A7F22A13CCF0076BA85 /* Main.storyboard */,
+				70650A8522A13CD00076BA85 /* Assets.xcassets */,
+				70650A8722A13CD00076BA85 /* LaunchScreen.storyboard */,
+				70650A8222A13CCF0076BA85 /* MoviesApp.xcdatamodeld */,
+				70650A8A22A13CD00076BA85 /* Info.plist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70053D2322DB431F00ED0E2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				70650A7D22A13CCF0076BA85 /* ViewController.swift */,
+				70650A9622A162720076BA85 /* MovieDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		70650A6F22A13CCF0076BA85 = {
 			isa = PBXGroup;
 			children = (
@@ -71,17 +103,9 @@
 		70650A7A22A13CCF0076BA85 /* MoviesApp */ = {
 			isa = PBXGroup;
 			children = (
-				70650A7B22A13CCF0076BA85 /* AppDelegate.swift */,
-				70650A7D22A13CCF0076BA85 /* ViewController.swift */,
-				70650A9222A143C40076BA85 /* Movie.File.swift */,
-				70650A9022A13E810076BA85 /* MovieCell.swift */,
-				70650A7F22A13CCF0076BA85 /* Main.storyboard */,
-				70650A9422A160E30076BA85 /* MovieDetailsCell.swift */,
-				70650A9622A162720076BA85 /* MovieDetailsViewController.swift */,
-				70650A8522A13CD00076BA85 /* Assets.xcassets */,
-				70650A8722A13CD00076BA85 /* LaunchScreen.storyboard */,
-				70650A8A22A13CD00076BA85 /* Info.plist */,
-				70650A8222A13CCF0076BA85 /* MoviesApp.xcdatamodeld */,
+				70053D2122DB3F7B00ED0E2B /* Model */,
+				70053D2222DB3F9F00ED0E2B /* View */,
+				70053D2322DB431F00ED0E2B /* Controllers */,
 			);
 			path = MoviesApp;
 			sourceTree = "<group>";
